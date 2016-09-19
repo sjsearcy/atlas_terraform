@@ -39,6 +39,7 @@ resource "aws_instance" "web" {
     Identity = "velocity-cfcd208495d565ef66e7dff9f98764da"
     tag1 = "hello world tag1"
     tag2 = "hello world tag2"
+    bad tag
   }
 }
 
